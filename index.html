@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <script src="languages.js"></script>
     <title>Speech To Text</title>
 </head>
 <body>
-     
     <div class="container">
         <p class="header"> Speech To Text</p>
         <div class="settings">
@@ -19,8 +20,8 @@
         <div class="separator"></div>
         <button class="btn record">
             <div class="icon">
-                <i class='bx bx-microphone bx-flip-horizontal bx-tada' style='color:#040404'  ></i>
-                <i class='bx bx-loader-circle bx-spin' style='color:#040404' ></i>
+                <i class='bx bx-microphone bx-flip-horizontal bx-tada' style='color:#040404'></i>
+                <i class='bx bx-loader-circle bx-spin' style='color:#040404'></i>
             </div>
             <p>Start Listening</p>
         </button>
@@ -33,17 +34,11 @@
         <div class="separator"></div>
 
         <div class="buttons">
-            <button class="btn clear">
-                Clear
-            </button>
-            <button class=" btn download" disabled>Download</button>
+            <button class="btn clear">Clear</button>
+            <button class="btn download" disabled>Download</button>
         </div>
-        
     </div>
 
-
-    <script src="languages.js"></script>
     <script src="script.js"></script>
-
 </body>
 </html>
